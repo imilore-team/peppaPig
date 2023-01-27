@@ -18,7 +18,7 @@ const Index = () => {
       <header className={'app-header'}>
         <h1 className={'app-header-icon'}>IMILORE</h1>
         <div className={'app-header-buttons'}>
-          <a href={'https://dashboard.imilore.tech/dashborad'}>
+          <a href={'https://dashboard.imilore.tech/dashboard'}>
             <Button>
               DEMO
             </Button>
