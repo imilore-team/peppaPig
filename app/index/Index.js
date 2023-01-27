@@ -36,7 +36,7 @@ const Index = () => {
           IMILORE
         </h1>
         <p className={'section-1-desc'}>
-          Сервис предикативного анализ сбоев серверного оборудования на основе BIG DATA
+          Сервис предиктивного <br/> анализа сбоев <br /> серверного оборудования <br /> на основе BIG DATA
         </p>
       </section>
       <section className={'section-2'}>
