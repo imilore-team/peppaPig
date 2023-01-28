@@ -41,8 +41,7 @@ const Index = () => {
       </section>
       <section className={'section-2'}>
         <h1 className={'section-2-header'}>
-          Превентивное обслуживание ведёт
-          к излишними заменами функционирующего оборудования
+          Какие проблемы мы решаем
         </h1>
         <div className={'section-2-items'}>
           <div className={'section-2-item'}>
