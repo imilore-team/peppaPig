@@ -13,10 +13,14 @@ import item3 from './assets/item3.svg';
 import item4 from './assets/item4.svg';
 
 const Index = () => {
+  const onImiloreClick = () => {
+    window.scrollTo({ behavior: 'smooth', duration: '0.1s', top: 0 });
+  }
+
   return (
     <div className={'app-landing'}>
       <header className={'app-header'}>
-        <h1 className={'app-header-icon'}>IMILORE</h1>
+        <h1 className={'app-header-icon'} onClick={onImiloreClick}>IMILORE</h1>
         <div className={'app-header-buttons'}>
           <a href={'https://dashboard.imilore.tech/dashboard'}>
             <Button>
@@ -41,7 +45,8 @@ const Index = () => {
       </section>
       <section className={'section-2'}>
         <h1 className={'section-2-header'}>
-          Какие проблемы мы устраняем?
+          Превентивное обслуживание ведёт
+          к излишними заменами функционирующего оборудования
         </h1>
         <div className={'section-2-items'}>
           <div className={'section-2-item'}>
@@ -75,13 +80,13 @@ const Index = () => {
           Наше решение
         </h1>
         <p className={'section-3-desc'}>
-          Мы предлагаем сократить ваши затраты
+          Мы предлагаем сократить ваши затраты,
           вызванные сбоями оборудования, автоматизировав
-          с помощью нашего приложения предсказание сбоев
+          с помощью нашего приложения предсказание сбоев <br />
           за счет автоматизированного прогнозирования состояний.
         </p>
         <p className={'section-3-desc'}>
-          С нашим продуктом вы всегда сможете узнать когда именно что-то пойдет не так.
+          С нашим продуктом вы всегда сможете узнать,<br /> когда именно что-то пойдет не так.
         </p>
       </section>
 
@@ -95,8 +100,8 @@ const Index = () => {
             <Image alt={'item1'} src={item1} className={'section-4-item-image'}/>
             <div className={'section-4-item-desc'}>
               Возможность расширения
-              кол-ва источников данных
-              для увеличения горизонта прогнозирования
+              <br/>кол-ва источников данных
+              <br/>для увеличения горизонта прогнозирования
             </div>
           </div>
           <div className={'section-4-item'}>
@@ -115,7 +120,7 @@ const Index = () => {
             <Image alt={'item1'} src={item4} className={'section-4-item-image'}/>
             <div className={'section-4-item-desc'}>
               Наличие предобученной
-              и оптимизированной модели
+              <br/>и оптимизированной модели
             </div>
           </div>
         </div>
@@ -133,11 +138,14 @@ const Index = () => {
           Свяжитесь с нами и мы подготовим персональное решение которое подходит именно вам
         </div>
         <div className={'section-6-button'}>
-          <a href={'https://dashboard.imilore.tech/?popup=contact'}>
-            <Button>
-              Написать нам
-            </Button>
-          </a>
+          {/*<a href={'https://dashboard.imilore.tech/?popup=contact'}>*/}
+          {/*  <Button>*/}
+          {/*    Написать нам*/}
+          {/*  </Button>*/}
+          {/*</a>*/}
+          <Button>
+            Написать нам
+          </Button>
         </div>
       </section>
 
@@ -146,10 +154,7 @@ const Index = () => {
           Контакты
         </div>
         <div className={'section-7-item'}>
-          phone
-        </div>
-        <div className={'section-7-item'}>
-          email
+          aeaksenov@gmail.com
         </div>
       </footer>
     </div>
