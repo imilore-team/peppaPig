@@ -22,16 +22,12 @@ const Index = () => {
       <header className={'app-header'}>
         <h1 className={'app-header-icon'} onClick={onImiloreClick}>IMILORE</h1>
         <div className={'app-header-buttons'}>
-          <a href={'https://dashboard.imilore.tech/dashboard'}>
-            <Button>
-              DEMO
-            </Button>
-          </a>
-          <a href={'https://dashboard.imilore.tech/?popup=auth'}>
-            <Button>
-              LOG IN
-            </Button>
-          </a>
+          <Button>
+            DEMO
+          </Button>
+          <Button>
+            LOG IN
+          </Button>
         </div>
       </header>
       <section className={'section-1'}>
