@@ -33,7 +33,7 @@ const Index = () => {
       <section className={'section-1'}>
         <Image alt={'network'} src={section1} className={'section-1-image'}/>
         <h1 className={'section-1-header'}>
-          IMILORE
+          IMILORE.TECH
         </h1>
         <p className={'section-1-desc'}>
           Сервис предиктивного <br/> анализа сбоев <br /> серверного оборудования <br /> на основе BIG DATA
