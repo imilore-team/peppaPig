@@ -20,7 +20,7 @@ const Index = () => {
   return (
     <div className={'app-landing'}>
       <header className={'app-header'}>
-        <h1 className={'app-header-icon'} onClick={onImiloreClick}>IMILORE</h1>
+        <h1 className={'app-header-icon'} onClick={onImiloreClick}>IMILORE.TECH</h1>
         <div className={'app-header-buttons'}>
           <a href={'https://dashboard.imilore.tech/'}>
             <Button>
